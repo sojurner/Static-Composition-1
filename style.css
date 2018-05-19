@@ -1,0 +1,380 @@
+* {
+   box-sizing: border-box;
+   font-family: Minecrafter;
+}
+
+body{
+  font-weight: 200;
+  font-size: .9rem;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  width: 100vw;
+  word-spacing: .3rem;
+}
+
+@font-face {
+   font-family: Minecrafter;
+   src: url(Minecrafter.Alt.ttf);
+}
+
+.master-container {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.header {
+  background-color: #B2DFDB;
+  grid-column: span 2;
+  text-align: left;
+}
+
+.title-buttons {
+  margin: 0 0 3rem 3rem;
+}
+
+.minecraft-logo {
+  margin: 30px 0 0 0;
+  width: 25rem;
+    -webkit-transition: width 1s;
+       -moz-transition: width 1s; 
+         -o-transition: width 1s;
+            transition: width 1s;
+}
+
+.minecraft-logo:hover {
+    width: 26rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 15px 0;
+  -webkit-transition: font-size 1s;
+       -moz-transition: font-size 1s; 
+         -o-transition: font-size 1s;
+            transition: font-size 1s;
+}
+
+p:hover {
+  font-size: 1.3rem;
+}
+
+h2 {
+  margin: 215px 0 0 0;
+}
+
+h2:hover {
+  font-size: 1.7rem;
+}
+
+button {
+  background: none;
+  border: 3px solid black;
+  font-size: 20px;
+  padding: 15px 10px 10px 35px;
+  text-align: center;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+button:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.download, .store, .minerals, .biomes, .combat, .tools, .potions, .mobs, .enchantments, .food {
+  background-repeat: no-repeat;
+}
+
+.download, .store {
+  background-position-x: 5%;
+  background-position-y: 45%;
+
+}
+
+.minerals, .combat, .tools, .potions, .mobs, .enchantments, .food {
+  background-position-x: center;
+  background-position-y: 40%;
+}
+
+
+.download {
+  background-image: url('https://image.flaticon.com/icons/svg/724/724933.svg');
+  background-size: 18px;
+}
+
+.store {
+  background-image: url('https://cdn.iconscout.com/public/images/icon/free/png-512/microsoft-store-39f02f9430ff34a3-512x512.png');
+  background-size: 20px;
+}
+
+.minerals {
+  background-color: #B2EBF2;
+  background-image: url('https://static.planetminecraft.com/files/resource_media/screenshot/1632/image10436889.png');
+  background-size: 8rem;
+}
+
+.minerals:hover {
+  background-image: url('https://img.emc.gs/f52d9c4e0debfb9a237037f673267bd4f74c0db9/687474703a2f2f7273313136362e70627372632e636f6d2f616c62756d732f713631312f6b69646a6174352f74756d626c725f6d6779773867796171653173337337376e6f315f3130302e6769667e63323030/'); 
+  background-size: 6rem;
+}
+
+.biomes {
+  background-image: url('http://i.imgur.com/pI3chVN.jpg');
+  background-size: cover;
+  grid-column: span 2;
+  grid-row: span 3;
+    -webkit-transition: opacity 2.0s ease-in;
+       -moz-transition: opacity 2.0s ease-in;
+         -o-transition: opacity 2.0s ease-in;
+         transition:1s;
+                                      opacity: 1;
+}
+
+.biomes:hover {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/26/bf/9d/26bf9d30b19fc2bb747e1172719badc0.jpg');
+}
+
+.combat {
+  background-color: #009688;
+  background-image: url('https://i.imgur.com/jXeZ4uT.png');
+  background-size: 10rem;
+}
+
+.combat:hover {
+  background-image: url('http://31.media.tumblr.com/c3c25409c3c3510eb320e30ad980343a/tumblr_mgyw3wGaUV1s3s77no1_250.gif');
+  background-size: 7rem;
+  background-position-y: 35%
+  }
+
+.tools {
+  background-image: url('https://vignette.wikia.nocookie.net/minecraft/images/0/07/Trapped_Chest.png/revision/latest?cb=20130318153346');
+  background-color: #63BDAF;
+  background-size: 6rem;
+}
+
+.tools:hover {
+  background-image: url('https://img00.deviantart.net/3404/i/2011/250/a/1/diamond_pickaxe_by_barakaldo-d496oku.gif');  
+}
+
+.potions {
+  background-color: skyblue;
+  background-image: url('https://vignette.wikia.nocookie.net/minecraft-computer/images/a/a6/Potions.gif/revision/latest?cb=20131226200644');
+  background-size: 7rem;
+}
+
+.potions:hover {
+  background-image: url('https://proxy.spigotmc.org/47643bb4181628cd8358938b36d835f91c9d5af3?url=http%3A%2F%2Ffc05.deviantart.net%2Ffs71%2Ff%2F2013%2F043%2F7%2Fe%2Fexp_bottle_250x_by_barakaldo-d5urhxh.gif');
+  background-position-y: 35%;
+  background-size: 9rem;
+}
+
+.mobs {
+  background-color: #0dba2f;
+  background-image: url('https://static.planetminecraft.com/files/resource_media/screenshot/1230/Minecraft-mobs-face-wallpaper_3041406.jpg');
+  background-size: 11rem;
+}
+
+.mobs:hover {
+  background-image: url('https://i.gifer.com/3MfN.gif');
+  background-size: 12rem;
+  background-position-y: 35%; 
+}
+
+.enchantments {
+  background-color: #0d98ba;
+  background-image: url('http://www.minecraftguides.org/blocks/enchantmentTable.gif');
+  background-size: 10rem;
+}
+
+.enchantments:hover {
+  background-image: url('http://minecraft.tools/en/img/blocs/403.gif');
+  background-size: 7rem;
+}
+
+.food {
+  background-color: #DCEDC8;
+  background-image: url('https://media.giphy.com/media/fslI9rnpNYo1i/source.gif');
+  background-size: 10rem;
+}
+
+.food:hover {
+  background-image: url('https://thumbs.gfycat.com/ForsakenDistinctDragonfly-max-1mb.gif');
+  background-size: 7rem;
+}
+
+@media screen and (max-width: 1215px) {
+  .master-container {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 1100px;
+  }
+  
+  .title-buttons {
+    margin: 0 0 1rem 3rem;
+    text-align: center;
+  }
+
+  .download {
+  background-size: 18px;
+  font-size: 15px;
+  }
+
+  .store {
+  background-size: 20px;
+  font-size: 15px;
+  }
+
+  .biomes {
+    grid-column: span 3;
+    grid-row: span 3;
+    grid-row-start:4;
+    grid-row-end: 6;
+  }
+
+  .header {
+    padding: 0 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .minecraft-logo:hover {
+    width: 50vw;
+  }
+  
+  .minerals, 
+  .tools, 
+  .potions {
+    background-size: 6rem;
+  }
+
+@media screen and (max-width: 750px) {
+  .minecraft-logo {
+    width: 45vw;
+  }
+
+  p {
+    font-size: .9rem;
+  }
+
+  p:hover{
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 12rem 0 0 0;
+  }
+
+@media screen and (max-width: 600px) {
+  .master-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .food,
+  .combat,
+  .minerals, 
+  .tools, 
+  .potions, 
+  .mobs,
+  .enchantments {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .biomes {
+    grid-column: span 1;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    grid-column-end: 3
+  }
+  
+
+  .title-buttons {
+    margin: 0 3rem 1rem 3rem;
+    text-align: center;
+  }
+
+  .minerals {
+    background-position-y: 45%;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 10rem 0 0 0;
+    padding: 0 0 1.5rem 0;
+  }
+
+  h2:hover {
+    font-size: 1.4rem;
+  }
+
+  .mobs {
+    background-size: 9rem;
+  }
+
+  .minecraft-logo {
+    width: 18rem;
+  }
+
+  .minecraft-logo:hover {
+    width: 19rem;
+  }
+   
+  p {
+    font-size: .9rem;
+  }  
+
+  p:hover {
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 500px) {
+  .master-container {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .minecraft-logo {
+    width: 15rem;
+  }
+
+  .minecraft-logo:hover {
+    width: 16rem;
+  }
+
+  .download {
+    background-size: 18px;
+    font-size: 11px;
+  }
+
+  .store {
+  background-size: 20px;
+  font-size: 11px;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .food,
+  .combat,
+  .minerals, 
+  .tools, 
+  .potions, 
+  .mobs,
+  .enchantments {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+}
+  
+
+
+
+
