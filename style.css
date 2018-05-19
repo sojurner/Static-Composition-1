@@ -98,11 +98,11 @@ button:hover {
 }
 
 .left-arrow {
-  margin: 25rem 12.5rem 0 0;
+  margin: 25rem 15vw 0 0;
 }
 
 .right-arrow {
-  margin: 25rem 0 0 12.5rem;
+  margin: 25rem 0 0 15vw;
 }
 
 .arrow-button:hover {
@@ -263,6 +263,14 @@ button:hover {
   .header {
     padding: 0 30px 0 0;
   }
+
+  .left-arrow {
+  margin: 9rem 40vw 0 0;
+  }
+
+  .right-arrow {
+  margin: 9rem 0 0 40vw;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -358,6 +366,14 @@ button:hover {
     font-size: 1rem;
   }
 
+  .left-arrow {
+  margin: 25rem 4rem 0 0;
+  }
+
+  .right-arrow {
+  margin: 25rem 0 0 4rem;
+  }
+
   @media screen and (max-width: 500px) {
   .master-container {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -395,6 +411,14 @@ button:hover {
   .enchantments {
     grid-column: span 2;
     grid-row: span 1;
+  }
+
+  .left-arrow {
+  display: none;
+  }
+
+  .right-arrow {
+  display: none;
   }
 }
   
