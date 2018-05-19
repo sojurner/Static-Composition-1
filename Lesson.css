@@ -1,0 +1,27 @@
+display: grid
+  
+grid-gap: 0;
+  
+grid-template
+  syntax
+    [grid-template-rows] / [grid-template-columns] 
+  
+  #fr - sets elements into fractions
+  span - targets specific elements
+  repeat(#ofreps, element size)
+  auto - spans to the space of content
+  
+grid-auto-flow:;
+  row - directs new incoming elements according to row
+  column - directs new incoming elements according to column
+  dense -
+  row dense -
+  column dense -
+  inherit* -
+  initial* -
+  unset* - 
+  
+  grid-column: span 2;
+}
+
+

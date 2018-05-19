@@ -86,30 +86,6 @@ button:hover {
           transform: rotate(360deg);
 }
 
-.arrow-button {
-  font-size: 1rem;
-  padding: 0 1rem;
-  background-color: grey;
-  opacity: .7;
-  -webkit-transition: font-size 1s;
-       -moz-transition: font-size 1s; 
-         -o-transition: font-size 1s;
-            transition: font-size 1s;
-}
-
-.left-arrow {
-  margin: 25rem 12.5rem 0 0;
-}
-
-.right-arrow {
-  margin: 25rem 0 0 12.5rem;
-}
-
-.arrow-button:hover {
-  color: white;
-  font-size: 1.5rem;
-}
-
 .download, .store, .minerals, .biomes, .combat, .tools, .potions, .mobs, .enchantments, .food {
   background-repeat: no-repeat;
 }
