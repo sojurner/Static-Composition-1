@@ -1,5 +1,5 @@
 ### Functional Expectations
-**Exceptional**
+* Exceptional
 
 ### COMP RECREATION / DESIGN
 **Exceptional**  
