@@ -1,18 +1,21 @@
-#### DOM Manipulation
-* Proficient  
+## **C: Group Work & Projects**
 
-#### Style
-* Advanced Beginner  
+# Linked List
+* [GitHub URL](https://github.com/sojurner/linked-list)
+* [Original Assignment](http://frontend.turing.io/projects/linked-list.html)
 
-### GIT & GITHUB
+## Notes/What To Work On:
 
-#### Git
+### HTML
+- use a ul and li for list items
+- no extra labels
 
 ### CSS
-**Advanced Beginner** 
+- don't use px for fonts
+- don't nest selectors if not needed
+- no unneccessary css, e.g. padding 0
 
-### JS/jQuery
-**Proficient**
+### JS
+- make sure to use a var when creating variables
 
-### GIT & GITHUB
-**Advanced Beginner**  
+### GIT
