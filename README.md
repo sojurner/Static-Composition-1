@@ -1,13 +1,17 @@
-## HTML
+### Functional Expectations
+**Exceptional**
 
-### Accessibility
+### COMP RECREATION / DESIGN
+**Exceptional**  
+
+### HTML
+**Advanced Beginner** 
+
+### CSS
+**Advanced Beginner** 
+
+### JS/jQuery
 **Proficient**
 
-### Style
-**Proficient** 
-
-## CSS
-
-### Structure of Code
-**Advanced Beginner**
-**Proficient**
+### GIT & GITHUB
+**Advanced Beginner**  
