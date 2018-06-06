@@ -1,11 +1,12 @@
-### Functional Expectations
-* Exceptional
+#### DOM Manipulation
+* Proficient  
 
-### COMP RECREATION / DESIGN
-**Exceptional**  
+#### Style
+* Advanced Beginner  
 
-### HTML
-**Advanced Beginner** 
+### GIT & GITHUB
+
+#### Git
 
 ### CSS
 **Advanced Beginner** 
